@@ -1,0 +1,551 @@
+/* CONTRIBUTIONS:
+ ROMAIN
+ OTTO
+  */
+
+body {
+	margin: 0;
+	font-family: Fantasy;
+}
+
+p,
+h1,ul,li{
+	margin: 0;
+}
+
+.display-grid {
+	display: grid;
+}
+
+.template-nav {
+    grid-auto-flow: column;
+    grid-row-gap: 25px;
+}
+
+.full-width {   
+	width: 100%;
+}
+
+.iconesHeader {
+    padding: 1em 0.3em;
+}
+.headerNav {
+    display: block;
+}
+#menu-deroulant {
+    width: 100%;
+    display: block;
+}
+
+/* MAIN DESTINATION */
+.mainDestination {
+    border-bottom: 1px solid black;
+}
+.mainDestinationBox {
+    background-color: #9A99FF;
+    color: white;
+    display: flex;
+}
+.mainDestinationBox h1 {
+    display: flex;
+    vertical-align: top;
+    padding: 0.5em;
+    font-size: 1.3em;
+}
+.mainDestinationBox img {
+    padding: 0.5em;
+}
+.mainDestination p {
+    margin: auto;
+    width: 100%;
+    line-height: 1.8em;
+}
+.moreInfo {
+    display: block;
+    padding: 0.5em 0;
+    color: red;
+}
+
+/* MAIN DESTINATION */
+.feu-container {}
+.tippie-container {}
+.patte-container {}
+.mainDestinationBox h1 {
+    display: flex;
+    vertical-align: top;
+    padding: 0.5em;
+    font-size: 1.3em;
+}
+.mainDestinationBox img {
+    padding: 0.5em;
+}
+.mainDestination p {
+    margin: auto;
+    width: 100%;
+    line-height: 1.8em;
+}
+.moreInfo {
+    display: block;
+    padding: 0.5em 0;
+    color: red;
+}
+.drapeaux img {
+    padding: 5px;
+    border: 1px solid black;
+    box-sizing: border-box; /*TODO */
+}
+.drapeaux h1 {
+    font-size: 1.7em;
+    border-bottom: 1px solid grey;
+    /* margin: 2em 16.8%; TODO */
+}
+
+.headerNav {
+    display: block;
+}
+#menu-deroulant {
+    display: block;
+}
+
+/* MAIN DESTINATION */
+.mainDestination {
+    border-bottom: 1px solid black;
+    margin: 3em 0;
+}
+.mainDestination p {
+    margin: auto;
+}
+.mainDestinationBox h1 {
+    display: flex;
+    vertical-align: top;
+    padding: 0.5em;
+    font-size: 1.3em;
+}
+.mainDestinationBox img {
+    padding: 0.5em;
+}
+.moreInfo {
+    display: block;
+    padding: 0.5em 0;
+    color: red;
+}
+
+
+.mainDestinationBox {
+    background-color: #9A99FF;
+    color: white;
+    display: grid;
+    grid-auto-flow: column;
+    margin: auto;
+}
+
+
+.sous-drapeaux {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 15px;
+	margin-top: 15px;
+
+}
+
+.wrap {  /* la taille est 940 px la margin est calculee automatiquement */
+    max-width: 940px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.mainDestination {
+    display: grid;
+    grid-auto-flow: column;
+	grid-column-gap: 20px;
+	/* border-bottom: 1px solid black; */
+}
+
+.mainDestinationBox {
+	background-color: #9A99FF;
+	color: white;
+	display: grid;
+	grid-auto-flow: column;
+}
+
+
+/* HEADER */
+
+.iconesHeader {
+	background-color: #CCFFFF;
+	border-bottom: 1px solid black;
+}
+
+.logo {
+	margin: 0;
+	padding: 0;
+	vertical-align: bottom;
+}
+
+.headerNav {
+	background-color: #9A99FF;
+	border-bottom: 1px solid black;
+}
+
+
+/* MENU DEROULANT*/
+
+#menu-deroulant,
+#menu-deroulant ul {
+	padding: 0px;
+	list-style: none;
+	font-weight: bold;
+	width: 100%;
+	margin: auto;
+}
+
+#menu-deroulant {
+	/* background-color: red; */
+	/* padding-bottom: 3em; */
+	padding-bottom: 10px;
+}
+
+#menu-deroulant > li {
+	/* on place les liens du menu horizontalement */
+	display: inline-block;
+    padding-right: 10px;
+    position: relative;
+}
+
+#menu-deroulant ul li {
+	/* on enlève ce comportement pour les liens du sous menu */
+    display: block;
+    padding: 7px;
+}
+
+#menu-deroulant a {
+	text-decoration: none;
+	display: block;
+	color: #000;
+}
+
+#menu-deroulant ul {
+	position: absolute;
+	display: none;
+	text-align: left;
+	z-index: 1000;
+	width: auto;
+}
+
+#menu-deroulant li:hover ul {
+	/* Au survol des li du menu on replace les sous menus */
+	display: block;
+	left: auto;
+}
+
+.headerNav ul li:hover ul {
+	left: auto;
+	margin: 0;
+	display: block;
+	background: rgb(204, 204, 204);
+	padding: 0;
+}
+
+.headerNav ul li:hover ul {
+	left: auto;
+	margin: 0;
+	display: block;
+	background: rgb(204, 204, 204);
+	padding: 0;
+}
+
+.headerNav ul li ul li:hover {
+	background: #fff;
+}
+
+
+/* ICONE MENU DEROULANT */
+
+.dropDownIcon {
+	height: 15px;
+	width: 15px;
+	vertical-align: middle;
+	padding-left: 0.2em;
+}
+
+/* BOTTOM*/
+
+.info-bottom{
+	border-top: 2px solid grey;
+	border-bottom: 2px solid grey;
+	background-color: #CCFFFF;
+	margin-top: 1em;
+	padding-bottom: 1em;
+
+}
+
+.info-bottom h1{
+	border-bottom: 1px grey solid;
+	padding: .49em 0;
+	margin: .49em 0;
+}
+
+.grid-bottom{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1.72em;
+}
+
+.tototo{
+	display:grid;
+	grid-template-columns:1fr 4fr;
+	grid-column-gap: 2em;
+	grid-column-gap: 1em;
+	padding: .5em 0;
+
+}
+
+.tototo img{
+	max-width:73px;
+	align-self: center;	
+}
+
+/* .tototo p{
+	margin: 1em 0;
+} */
+
+.aboutUs p{
+	margin-bottom: 1em;
+}
+
+.howToTravel{
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+
+/* FOOTER */
+
+footer{
+	background-color: #9A99FF;
+}
+
+.footerList ul li{
+	display:inline-block;
+	padding-right: 1em;
+	font-weight:bold;
+	margin: 0 0;
+}
+
+.marginFooterDiv{
+ 	padding: 2em 0;
+}
+
+.footerList ul{
+	margin:0;
+	padding: 2em 0;
+}
+
+.footerList p{
+	padding-bottom: 3em;
+}
+
+.subscribeButton{
+	background: #7AA763;
+	border:1px solid #000;
+	border-radius: 3px;
+	padding: 8px;
+	margin: 1em 0;
+	font-size: 15px;
+	color: #fff;
+}
+
+
+/* SLIDER FULL CSS 
+##########################
+##########################
+########################## 
+*/
+
+.mySlides {
+	display: none;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+	position: relative;
+	margin: auto;
+	padding: 1em 0;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* Caption text */
+
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	/* position: absolute; */
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+}
+
+
+/* Fading animation */
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+.superContainerSlidehow {
+	border-bottom: 1px solid black;
+	background-color: #CCFFFF;
+}
+
+
+
+/* END OF SLIDESHOW 
+##########################
+##########################
+########################## 
+*/
+
+
+@media screen and (max-width: 1000px) { /* first breakpoint */
+    .template-nav {
+        grid-auto-flow: row;
+    }
+  
+	
+}
+
+@media screen and (max-width: 768px) { /* second breakpoint */
+    #menu-deroulant ul {
+        position: static;
+    }
+
+    #menu-deroulant li {
+        display: block;
+        padding-bottom: 0.5em;
+        border-top: 2px solid gray;
+        position: relative;
+    }
+
+    #menu-deroulant ul { /* Le sous menu prend de la place */
+        position: static;
+    }
+
+    .dropDownIcon { /* Passe la fleche a droite */
+        display: inline-block;
+        vertical-align: middle;
+        position: absolute;
+        right: 0;
+    } 
+
+    .mainDestination {
+        grid-auto-flow: row;
+    }
+
+    .sous-drapeaux {
+        grid-auto-flow: row;
+    }
+
+    .sous-drapeaux > div:not(:first-child) {
+        display: none;
+	}
+	
+	.grid-bottom{
+		display:block;	
+}
+
+@media screen and (max-width: 600px) { /* third breakpoint */
+
+    .template-nav { /* Passe la navigation en row */
+		grid-auto-flow: row;
+	}
+    
+}
